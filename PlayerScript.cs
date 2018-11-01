@@ -18,7 +18,8 @@ public class PlayerScript : MonoBehaviour
 
 
 
-    
+    public GameObject UpperBody;
+    public GameObject FeetBody;
 
 
 
@@ -34,10 +35,17 @@ public class PlayerScript : MonoBehaviour
 
     public float playerSpeed = 10f;
 
-    void Start()
+    private void Awake()
     {
         
+    }
 
+
+
+    void Start()
+    {
+
+        
         
 
 
