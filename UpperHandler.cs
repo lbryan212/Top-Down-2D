@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class UpperHandler : MonoBehaviour {
 
-
+    
     public bool Moving;
     public bool Primary;
     public bool Secondary;
     public bool Knife;
 
-
-
     public Animator anim;
 
-	// Use this for initialization
-	void Start () {
+
+
+    // Use this for initialization
+    void Start () {
+        
+
+
 		
 	}
 	
